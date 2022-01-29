@@ -29,14 +29,14 @@ class Register extends React.Component {
       body: JSON.stringify({
         email: this.state.email,
         password: this.state.password,
-        name: this.state.name
+        name: this.state.name,
       }),
     })
       .then((resp) => resp.json())
       .then((user) => {
-        if (user) {
-            this.props.loadUser(user);
-            this.props.onRouteChange("home");
+        if (user.id) {
+          this.props.loadUser(user);
+          this.props.onRouteChange("home");
         }
       });
   };
