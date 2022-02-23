@@ -1,6 +1,6 @@
 # Smart Brain
 
-This project consists in a webapp that uses the url of an image and the Clarifai API to detect and draw a border around a person's face. This application uses a nodejs backend that can be fount [**here**](https://github.com/rleite-it/smartbrain-api) and a postgreSQL database to store the login information, as well as, the profile of the user so he can keep track of the number of image url that he submitted so far. This app has a sign in and a sign up page as well!
+This project consists in a webapp that uses the url of an image and the Clarifai API to detect and draw a border around a person's face. This application uses a nodejs backend that can be found [**here**](https://github.com/rleite-it/smartbrain-api) and a postgreSQL database to store the login information, as well as, the profile of the user so he can keep track of the number of images url that he submitted so far. This app has a sign in and a sign up page as well!
 
 ## Technologies Used
 
